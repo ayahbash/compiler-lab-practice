@@ -7,7 +7,7 @@ int consonants = 0;
 %%
 [aeiouAEIOU] {vowels++;}
 [b-df-hj-np-tv-zB-DF-HJ-NP-TV-Z] {consonants++;}
-. ;
+. ; /*ignores the rest*/
 \n {return 0;} /*treats enter as EOF*/
 %%
 
