@@ -1,0 +1,12 @@
+# ignore compiled binaries
+compil
+a.out
+countdigits
+cvc
+lexer
+
+# ignore flex/bison generated files 
+lex.yy.c 
+
+# ignore backup or temp files
+.DS_Store
