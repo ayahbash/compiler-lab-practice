@@ -4,9 +4,19 @@ a.out
 countdigits
 cvc
 lexer
+*.out
+*.exe
+
 
 # ignore flex/bison generated files 
 lex.yy.c 
+y.tab.c
+y.tab.h
+
+# ignore object or build files
+*.o
 
 # ignore backup or temp files
+*~
+*.swp
 .DS_Store
