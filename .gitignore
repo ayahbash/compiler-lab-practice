@@ -3,7 +3,6 @@ compil
 a.out
 countdigits
 cvc
-lexer
 *.out
 *.exe
 
