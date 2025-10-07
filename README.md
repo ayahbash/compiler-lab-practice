@@ -1,5 +1,5 @@
-# compiler-lab-practice
-practice repo for compiler design class
+# compiler-lab-practice 
+practice repo for compiler design lab
 
 ## lexical analysis (flex)
 - [digits counter](./lexer/count-digits/) 
